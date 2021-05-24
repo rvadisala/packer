@@ -1,7 +1,7 @@
 #!/bin/bash
 #Package Installation
 sudo yum -y install epel-release
-sudo yum install nginx npm git -y
+sudo yum install nginx npm git docker.io vim lvm2 -y
 
 
 #Selinux Configuration
